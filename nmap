@@ -1,0 +1,12 @@
+1- Comencem detecant ports oberts:
+	>nmap -p- --open -T5 -v -n -Pn 10.X.X.X -oG allPorts
+	
+	>nmap -p- -sS --min-rate 5000 -vvv -n -Pn 10.X.X.X -oG allPorts
+
+	Dels ports guardats els copiem per poder fer l'escaniex posterior d'info:
+	>extractport allPorts
+
+2- Extraiem informació i la guardem a fitxer targeted:
+	>nmap -sC -sV -p"port,port,port" 10.X.X -oN targeted
+  
+  
