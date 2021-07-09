@@ -1,0 +1,12 @@
+Parrot: 11Ekis12
+	Win + D -> opcions apps
+	Win + enter -> terminal
+	Win + alt + flecha -> obrir a dif llocs de la pantalla
+	win + alt + r -> mides pantalla ajustades
+	win + w -> tancar finestra
+	
+	ctr + r -> verue historic de comandes a cli
+	ctr+shift+c -> copy
+	ctr+shift+v -> paste
+	
+	close -> shutdown -h now
